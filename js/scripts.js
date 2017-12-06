@@ -1,12 +1,15 @@
 var translateFunction = function(word) {
   if (word.match(/[^a-z]/i)) {
     return word;
-  } else {
-    word = word + "way";
-    return word;
+  }
+  for (var i = 0; i < word.length; i +=1) {
+    if (word.charAt(0).match(/[a, e, i, o, u]/i)) {
+      word = word + "way";
+      return word;
+    }
+  }
   }
 
-}
 
 
 
