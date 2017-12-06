@@ -7,6 +7,12 @@ var translateFunction = function(word) {
       word = word + "way";
       return word;
     }
+    else {
+    var consonant = word.slice(0, i+1);
+    var restOfWord = word.slice(i+1, word.length);
+    var newWord = restOfWord + consonant + "ay";
+    return newWord;
+  }
   }
   }
 
