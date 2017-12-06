@@ -1,7 +1,11 @@
 var translateFunction = function(word) {
   if (word.match(/[^a-z]/i)) {
     return word;
+  } else {
+    word = word + "way";
+    return word;
   }
+
 }
 
 
