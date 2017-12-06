@@ -25,7 +25,7 @@ This app translates English words or sentences into Pig Latin.
 |Program adds "way" to single letter words that begin with the vowel "i"|
                                 |Input:i| |output:iway|
 
-|Program adds "way" to letter words that begin with any vowel|
+|Program adds "ay" to letter words that begin with any vowel|
                                 |Input:a| |output:away|
 
 |Program moves first consonant to end of word and add "ay to the end"|
