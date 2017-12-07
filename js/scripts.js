@@ -11,15 +11,22 @@ var translateFunction = function(word) {
       var restOfWord = word.slice(i + 1, word.length);
       var newWord = restOfWord + consonant + "ay";
       return newWord;
-
     } else if ((word.charAt(i).match(/[a, e, i, o, u]/i))){
-    var consonant = word.slice(0, i);
-    var restOfWord = word.slice(i, word.length);
-    var newWord = restOfWord + consonant + "ay";
-    return newWord;
+      var consonant = word.slice(0, i);
+      var restOfWord = word.slice(i, word.length);
+      var newWord = restOfWord + consonant + "ay";
+      return newWord;
+    } else if ((word.charAt(0).match(/[^y]/i)) && (word.charAt(i).match(/[a,e,i,o,u,y]/i))) {
+      var consonant = word.slice(0, i);
+      var restOfWord = word.slice(i, word.length);
+      var newWord = restOfWord + consonant + "ay";
+      return newWord;
+    }
+
+
   }
   }
-  }
+  
 
 
 

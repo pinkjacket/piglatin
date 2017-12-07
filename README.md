@@ -41,10 +41,10 @@ This app translates English words or sentences into Pig Latin.
 |Program finds words that begin with 2 consecutive consonants and moves those to the end and adds "ay"| |Input: brace| |Output: acebray|
 
 
-|Program finds words that begin  with three consecutive consonants or more moves the consonants to the end and adds "ay"||Input: system||output:temsysay|
+|Program finds words that begin  with three consecutive consonants or more moves the consonants to the end and adds "ay"||Input: strength||output:engthstray|
 
 |Treat "y" as a consonant at the beginning of a word|
-                                  |input: yesterday| |output:esterdayay|
+                                  |input: yesterday| |output:esterdayyay|
 
 |Perfrom actions on strings containing multiple words|
         |input: yesterday i questioned the word and squealed|
